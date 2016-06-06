@@ -1,5 +1,5 @@
-hash: 8e876023970bde03c07f46199d2990df7ae653aef0d017e00792ab6f226704fb
-updated: 2016-06-06T14:04:17.81020606+03:00
+hash: de504fbb8ace5251960481e757099d96110295b350cd7761c4ae6064dee1806a
+updated: 2016-06-06T17:02:35.396514937+03:00
 imports:
 - name: github.com/coreos/go-systemd
   version: 4484981625c1a6a2ecb40a390fcb6a9bcfee76e3
@@ -51,13 +51,6 @@ imports:
   version: 9056b7a9f2d1f2d96498d6d146acd1f9d5ed3d59
 - name: github.com/mattn/go-isatty
   version: 56b76bdf51f7708750eac80fa38b952bb9f32639
-- name: github.com/mcuadros/gce-docker
-  version: ac894bd773c4f2ce29458ceaa83a7391d09e5670
-  subpackages:
-  - commands
-  - plugin
-  - providers
-  - watcher
 - name: github.com/Microsoft/go-winio
   version: 4f1a71750d95a5a8a46c40a67ffbed8129c2f138
 - name: github.com/opencontainers/runc
