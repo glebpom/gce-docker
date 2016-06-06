@@ -11,8 +11,8 @@ import (
 )
 
 var (
-	NetworkBaseName        = "docker-network-%s-%s"
-	DiskDeviceNameBaseName = "docker-volume-%s"
+	NetworkBaseName        = "%s-%s"
+	DiskDeviceNameBaseName = "%s"
 	DiskDevBasePath        = "/dev/disk/by-id/google-%s"
 )
 
