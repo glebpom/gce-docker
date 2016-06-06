@@ -1,15 +1,9 @@
-package: .
+package: github.com/mcuadros/gce-docker
 import:
 - package: github.com/docker/go-plugins-helpers
   subpackages:
   - volume
 - package: github.com/fsouza/go-dockerclient
-- package: github.com/mcuadros/gce-docker
-  subpackages:
-  - commands
-  - plugin
-  - providers
-  - watcher
 - package: github.com/spf13/afero
 - package: github.com/spf13/cobra
 - package: golang.org/x/net

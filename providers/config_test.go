@@ -75,7 +75,7 @@ func (s *ConfigSuite) TestNetworkConfigID(c *C) {
 
 func (s *ConfigSuite) TestNetworkConfigName(c *C) {
 	config := &NetworkConfig{GroupName: "bar"}
-	c.Assert(config.Name("foo"), Equals, "docker-network-bar-37b51d19")
+	c.Assert(config.Name("foo"), Equals, "bar-37b51d19")
 }
 
 func (s *ConfigSuite) TestNetworkConfigTargetPool(c *C) {
@@ -85,7 +85,7 @@ func (s *ConfigSuite) TestNetworkConfigTargetPool(c *C) {
 	}
 
 	tp := config.TargetPool("bar", "baz", "foo")
-	c.Assert(tp.Name, Equals, "docker-network-foo-bar-e5f9ec04")
+	c.Assert(tp.Name, Equals, "foo-bar-e5f9ec04")
 	c.Assert(tp.Instances, HasLen, 1)
 	c.Assert(tp.Instances[0], Equals, "https://www.googleapis.com/compute/v1/projects/bar/zones/baz/instances/foo")
 	c.Assert(tp.SessionAffinity, Equals, "qux")
