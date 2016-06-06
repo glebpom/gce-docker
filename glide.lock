@@ -1,0 +1,140 @@
+hash: 8e876023970bde03c07f46199d2990df7ae653aef0d017e00792ab6f226704fb
+updated: 2016-06-06T14:04:17.81020606+03:00
+imports:
+- name: github.com/coreos/go-systemd
+  version: 4484981625c1a6a2ecb40a390fcb6a9bcfee76e3
+  subpackages:
+  - activation
+  - util
+- name: github.com/coreos/pkg
+  version: 7f080b6c11ac2d2347c3cd7521e810207ea1a041
+  subpackages:
+  - dlopen
+- name: github.com/docker/docker
+  version: ac14aa11b6f9172c744affa9823d05fde721c5e0
+  subpackages:
+  - opts
+  - pkg/archive
+  - pkg/fileutils
+  - pkg/homedir
+  - pkg/stdcopy
+  - pkg/idtools
+  - pkg/ioutils
+  - pkg/pools
+  - pkg/promise
+  - pkg/system
+  - pkg/longpath
+- name: github.com/docker/go-connections
+  version: c7838b258fbfa3fe88eecfb2a0e08ea0dbd6a646
+  subpackages:
+  - sockets
+- name: github.com/docker/go-plugins-helpers
+  version: b6b774486d89219eba2d2b72ed50d32880167671
+  subpackages:
+  - volume
+  - sdk
+- name: github.com/docker/go-units
+  version: 09dda9d4b0d748c57c14048906d3d094a58ec0c9
+- name: github.com/fsouza/go-dockerclient
+  version: 9df1f25d542e79d7909ef321b5c13c5d34ea7f1d
+- name: github.com/golang/protobuf
+  version: 3b06fc7a4cad73efce5fe6217ab6c33e7231ab4a
+  subpackages:
+  - proto
+- name: github.com/hashicorp/go-cleanhttp
+  version: ad28ea4487f05916463e2423a55166280e8254b5
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/kr/fs
+  version: 2788f0dbd16903de03cb8186e5c7d97b69ad387b
+- name: github.com/mattn/go-colorable
+  version: 9056b7a9f2d1f2d96498d6d146acd1f9d5ed3d59
+- name: github.com/mattn/go-isatty
+  version: 56b76bdf51f7708750eac80fa38b952bb9f32639
+- name: github.com/mcuadros/gce-docker
+  version: ac894bd773c4f2ce29458ceaa83a7391d09e5670
+  subpackages:
+  - commands
+  - plugin
+  - providers
+  - watcher
+- name: github.com/Microsoft/go-winio
+  version: 4f1a71750d95a5a8a46c40a67ffbed8129c2f138
+- name: github.com/opencontainers/runc
+  version: 8e22b1d36b2ec794e16fb47cf662c50e2553cb9f
+  subpackages:
+  - libcontainer/user
+- name: github.com/pkg/errors
+  version: b700c3e91831ea1e73f0cd28ddaaa8267fc61913
+- name: github.com/pkg/sftp
+  version: 526cf9b2b38d2f3675e34e473f2cef38e1e0565b
+- name: github.com/Sirupsen/logrus
+  version: f3cfb454f4c209e6668c95216c4744b8fddb2356
+- name: github.com/spf13/afero
+  version: 1a8ecf8b9da1fb5306e149e83128fc447957d2a8
+  subpackages:
+  - mem
+  - sftp
+- name: github.com/spf13/cobra
+  version: f447048345b64b3247b29a679a14bd0da12c7f2f
+- name: github.com/spf13/pflag
+  version: cb88ea77998c3f024757528e3305022ab50b43be
+- name: golang.org/x/crypto
+  version: 5bcd134fee4dd1475da17714aac19c0aa0142e2f
+  subpackages:
+  - ssh
+  - curve25519
+  - ed25519
+  - ed25519/internal/edwards25519
+- name: golang.org/x/net
+  version: c4c3ea71919de159c9e246d7be66deb7f0a39a58
+  subpackages:
+  - context
+  - context/ctxhttp
+  - proxy
+- name: golang.org/x/oauth2
+  version: c406a4cc4ba462e5dc2f16225c5bd9488f9cbe10
+  subpackages:
+  - google
+  - internal
+  - jws
+  - jwt
+- name: golang.org/x/sys
+  version: 076b546753157f758b316e59bcb51e6807c04057
+  subpackages:
+  - unix
+  - windows
+- name: golang.org/x/text
+  version: da88cb54a2fe4ec041612bd04b321d6a79d3ea81
+  subpackages:
+  - transform
+  - unicode/norm
+- name: google.golang.org/api
+  version: 63ade871fd3aec1225809d496e81ec91ab76ea29
+  subpackages:
+  - compute/v1
+  - googleapi
+  - gensupport
+  - googleapi/internal/uritemplates
+- name: google.golang.org/appengine
+  version: 7f59a8c76b8594d06044bfe0bcbe475cb2020482
+  subpackages:
+  - urlfetch
+  - internal
+  - internal/app_identity
+  - internal/modules
+  - internal/urlfetch
+  - internal/base
+  - internal/datastore
+  - internal/remote_api
+- name: google.golang.org/cloud
+  version: 0bf7a0795c591c70a17505c1123bc3ef3d30f426
+  subpackages:
+  - compute/metadata
+  - internal
+- name: gopkg.in/inconshreveable/log15.v2
+  version: b105bd37f74e5d9dc7b6ad7806715c7a2b83fd3f
+  subpackages:
+  - stack
+  - term
+devImports: []
